@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="lyrics.css">
+    <title>Lyrics Page</title>
+</head>
+<body>
+    <header id="header"></header>
+    <h2>Lets get them lyrics!</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FiFT5aMcLwY?si=iLnu1p4xTA0wpQ3a&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <form class="search-bar">
+        <input type="text" placeholder="Paste YouTube or Spotify url here" name="url">
+        <button type="submit" id="submit" aria-label="Submit">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2">
+                <path d="M5 12h14M13 6l6 6-6 6"/>
+            </svg>
+        </button>
+    </form>
+
+    <div id="lyrics"></div>
+
+    <script src="header.js"></script>
+    <script src="seturl.js"></script>
+</body>
+</html>
